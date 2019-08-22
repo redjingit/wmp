@@ -9,7 +9,7 @@ public class wmpTestController {
 	@RequestMapping("/")
     public String showHomePage(Model m) {
         m.addAttribute("name", "Hello");
-        return "wmptest1s";
+        return "wmptest";
     }
 	
 }
